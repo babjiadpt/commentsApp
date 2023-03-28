@@ -1,0 +1,156 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+  }
+}
+
+.comments-app-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .comments-app-container {
+    width: 80%;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #1e293b;
+  font-weight: 900;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .comments-container {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+  }
+}
+
+.comments-image {
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .comments-image {
+    width: 40%;
+    order: 2;
+  }
+}
+
+.form-container {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    margin-right: 20px;
+  }
+}
+
+.form-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #7e858e;
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .form-description {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.input-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  width: 100%;
+  outline: none;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .input-text {
+    width: 70%;
+  }
+}
+
+.comment-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+  padding-left: 10px;
+  width: 100%;
+  outline: none;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .comment-text {
+    width: 70%;
+  }
+}
+
+.comment-button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  border: none;
+  background-color: #0284c7;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+}
+
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.count-button {
+  padding: 5px;
+  min-width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+}
+
+.count-comment {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.comment-details-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
